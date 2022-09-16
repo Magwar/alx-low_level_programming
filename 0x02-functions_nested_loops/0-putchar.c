@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-* main prints the said characters
+* Description: main - Prints the said characters
 *
-* Return 0
+* Return: 0 if Success
 */
-int main()
+int main(void)
 {
 putchar('_');
 putchar('p');
