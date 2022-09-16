@@ -1,16 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
 * Description: main- prints alphebets in lower cases a-z.
 *
 * Return: 0
 */
-int main(void)
+int main()
 {
-char ch = 'a';
-while (ch <= 'z')
+int char(int c = 'a'; c <= 'z'; c++);
 {
-printf("%c", ch);
-ch++;
+putchar( c );
 }
 return (0);
 }

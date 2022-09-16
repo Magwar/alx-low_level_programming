@@ -1,17 +1,19 @@
 #include <stdio.h>
-#include <string.h>
 /**
+* main prints the said characters
 *
-*
-*
+* Return 0
 */
 int main()
 {
-char str[10] = "_putchar";
-
-for (int i = 0; i < strlen(str) ;i++)
-{
-putchar(str[i]);
-}
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
 return 0;
 }
